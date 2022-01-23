@@ -12,4 +12,4 @@ ADD src .
 ENV FLASK_APP=index.py
 
 # Run
-ENTRYPOINT [ "flask", "run", "--host=0.0.0.0" ]
+ENTRYPOINT [ "flask", "run", "--host=127.0.0.1" ]
